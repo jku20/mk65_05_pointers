@@ -1,11 +1,8 @@
-CC = gcc
-OBJECTS = main.o
-
-all : $(OBJECTS)
-	$(CC) -o main main.o
+all : main.o
+	gcc -o main main.o
 
 main.o : main.c
-	$(CC) -c main.c
+	gcc -c main.c
 
 .PHONY: clean
 
