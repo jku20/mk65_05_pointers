@@ -8,3 +8,6 @@ main.o : main.c
 
 clean:
 	rm *.o
+
+run: 
+	./main
